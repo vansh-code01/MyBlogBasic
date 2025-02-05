@@ -1,46 +1,45 @@
 .container {
-    
   padding: 5px;
   margin: 20px auto;
   width: 90%;
   background-color: #eaeaee;
   border-radius: 5px;
 }
-#mainhead{
-    font-weight: bolder;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 
+#mainhead {
+  font-weight: bolder;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
+
 header {
   background-color: #eaeaee;
 }
+
 a {
   color: white;
   font-weight: bold;
   text-decoration: none;
 }
-.nav-bar a:first-child{
-    margin-left: 0;
+
+.nav-bar a:first-child {
+  margin-left: 0;
 }
-#headblog1{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bolder;
-    border-bottom: 1px dotted rgb(53, 52, 52);
-    text-decoration: none;
+
+#headblog1,
+#headblog2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bolder;
+  border-bottom: 1px dotted rgb(53, 52, 52);
+  text-decoration: none;
 }
-#headblog2{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: bolder;
-    border-bottom: 1px dotted rgb(53, 52, 52);
-    text-decoration: none;
+
+#nav-item {
+  display: inline;
+  margin: 0 10px;
+  font-weight: bolder;
 }
-#nav-item{
-    display: inline;
-    margin-left:10px;
-    margin-right: 10px;
-    font-weight: bolder;
-}
+
 .nav-bar {
   background-color: rgb(124, 124, 241);
   height: 55px;
@@ -49,32 +48,30 @@ a {
   box-sizing: border-box;
   margin-bottom: 20px;
 }
-.blog1 {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding-bottom: 15px;
+
+.blog1,
+.blog2 {
   background-color: white;
-  
-  
-  
   border-radius: 5px;
-  
   padding-top: 15px;
   padding-left: 10px;
 }
+
+.blog1 {
+  margin: 20px 0;
+  padding-bottom: 15px;
+}
+
+.blog2 {
+  border: none;
+  margin-bottom: 25px;
+}
+
 img {
   display: block;
   margin: 0 auto;
 }
-.blog2 {
-  background-color: white;
-  border: none;
-  margin-bottom: 25px;
-  border-radius: 5px;
-  
-  padding-top: 15px;
-  padding-left: 10px;
-}
+
 footer {
   background-color: black;
   color: white;
